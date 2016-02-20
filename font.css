@@ -1,8 +1,4 @@
-body {
-    margin: 0;
-    background-color: #282828;
-    color:white;
-}
+
 
 
 ul {
@@ -28,6 +24,11 @@ li a {
     border-color: black;
     border-width: 2px 0 0 0;
 }
+body {
+    margin: 0;
+    background-color: #282828;
+    color:white;
+}
 
 li a.active {
     background-color: #383838;
@@ -41,4 +42,58 @@ li a:hover:not(.active) {
 img{
     height: 30%; 
     width: 100%; 
+}
+
+#body{
+  float: left;
+  color: white;
+  max-width: 78%;
+  padding-left: 25%;
+}
+
+textarea {
+  max-width: 65%;
+}
+
+#post li{
+font-size: 1000px;
+color: white;
+}
+
+ol li img{
+  list-style: none;
+  padding: 5px;
+  float: left;
+  max-height: 45px;
+  max-width:  45px;
+}
+ol li {
+    width:78%;
+     list-style: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 1px 1px 1px;
+    background-color: white;
+    color:black;
+}
+#loginPage{
+  padding-right: 5%;
+  background: white;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#profilePic {
+  max-width: 20%;
+  max-height: 20%;
+  float:left;
+  padding: 5px;
+}
+#userId{
+  font-size: 24;
+}
+#review{
+  color: #ffdf00
 }

@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>HomeDepot</title>
+<link rel="stylesheet" type="text/css" href="font.css" title="style" />
+<body>
+
+<ul>
+  <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/2000px-TheHomeDepot.svg.png"></a></li>
+  <li><a href="#profile" href="#profile">My Profile</a></li>
+  <li><a class="active">Post a job</a></li>
+  <li><a href="#lJob">Look at jobs</a></li>
+  <li id="lastTerm"><a href="#reviews">Reviews</a></li>
+  <li><a href=""></a></li>
+</ul>
+
+<div id = "body">
+
+<div id="footer">
+  <h2>Post - a - Job</h2>
+</div><br>
+  <form id="jobdes">
+  <table>
+      <tr>
+        <td>Job ID:</td>
+        <td>
+          <select name="jobs" required="true">
+            <option value="blank">--------</option>
+            <option value="101">PIPES</option>
+            <option value="102">BATHROOM</option>
+            <option value="103">KITCHEN</option>
+          <option value="104">PAINT</option>
+          <option value="104">ELECTRICAL</option>
+          <option value="104">APPLIANCES</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Job Location</td>
+        <td>
+          <select name="location" required="true">
+            <option value="blank">--------</option>
+            <option value="Seattle">SEATTLE</option>
+            <option value="Washington">WASHINGTON</option>
+            <option value="Atlanta">ATLANTA</option>
+            <option value="Florida">FLORIDA</option>
+
+          </select>
+        </td>
+      </tr>
+    <tr>
+      <td>Job Description:</td>
+      <td><textarea name="jdescription" rows="10" cols="90" required="true"></textarea></td>
+    </tr>
+
+  <tr>
+    <td></td>
+    <td><input type="submit" value="post"></td>
+  </tr>
+      </table>
+    </form>
+</div>
+
+</body>
+</html>
