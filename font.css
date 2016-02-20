@@ -1,113 +1,44 @@
-html
-{
-  height: 100%;
-  background-image:url(bg.jpg);
-  background-attachment: fixed;
-  padding:20px;
-}
-#moving {
-  width: 500px;
-  background-color: rgb(102, 255, 153);
-  position: relative;
-  height: 20px;
-  line-height: 20px;
-  margin: 1em auto;
-  overflow: hidden;
-}
-
-h3 {
-	text-align: center;
+body {
+    margin: 0;
+    background-color: #282828;
+    color:white;
 }
 
 
-body
-{
-  font-family:georgia,garamond,serif;
-  background: #ffff99;
-  color: #000000;
-  padding:10px;
-}
-
-h1, h2
-{ color: #A4A400;
-  background: #F0F0F0;
-  font-family:Century Gothic, Futura, Verdana;
-  text-align: center;
-}
-
-
-span.bold
-{
- font-weight:bold;
-}
-
-span.quote
-{
- font-weight:bold;
- font-style:italic;
- text-align:center;
-}
-
-figure
-{
-	text-align:center;
-}
-
-a, a:hover
-{ outline: none;
-  text-decoration: underline;
-  color: #A4A400;
-  }
-
-  a:hover
-{ text-decoration: none;
-background-color: #43423F;}
-
-img
-{
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-
-table {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-	border-collapse: collapse;
-}
-
-
-#nav {
-    float:left;
-	margin-left:50px;
-    padding:0px;
-}
-
-ul#menu {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 20%;
+    background-color: #ff6600;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
 }
 
-ul#menu li{
- display: inline;
- font-family:Berlin Sans FB;
- color:#F0F0F0;
-}
-
-ul#menu li a {
-    background-color: #DCD191;
-    color: blue;
-    padding: 6px;
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 0 10px 16px;
     text-decoration: none;
-	border-right-color:blue;
-	border-right-style:solid;
-	border-right-width:10px;
-	overflow:hidden;
+    font-size: 150%;
+    font-weight: bold;
+     border-style: solid;
+    border-color: black;
+    border-width: 2px 0 0 0;
 }
 
-ul#menu li a:hover {
-    background-color: #F0F0F0;
+li a.active {
+    background-color: #383838;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #383838 ;
+    color: white;
+}
+img{
+    height: 30%; 
+    width: 100%; 
 }
